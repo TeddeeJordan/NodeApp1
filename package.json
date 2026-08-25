@@ -1,0 +1,28 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "node app example",
+  "homepage": "https://github.com/TeddeeJordan/NodeApp1#readme",
+  "bugs": {
+    "url": "https://github.com/TeddeeJordan/NodeApp1/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TeddeeJordan/NodeApp1.git"
+  },
+  "license": "ISC",
+  "author": "Teddee Jordan",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "dev": "nodemon"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.9.4",
+    "nodemon": "^3.1.14"
+  }
+}
