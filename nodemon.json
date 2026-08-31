@@ -1,5 +1,9 @@
 {
   "watch": ["backend"],
   "ext": "js,ts,json,tsx,jsx",
-  "exec": "node backend/src/index.js"
+  "exec": "node backend/src/index.js",
+  "events": {
+    "crash": "fuser -k 4000/tcp",
+    "exit": "fuser -k 4000/tcp"
+  }
 }
